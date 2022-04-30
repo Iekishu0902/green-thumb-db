@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# テーブル作成
 psql -p 5432 -U thumb -d thumb -f /docker-entrypoint-initdb.d/sql/01_ddl.sql
+# データ投入
 csvFiles=($(ls /docker-entrypoint-initdb.d/csv/))
 for csvFile in ${csvFiles[@]}; do
   tableName=`echo "$csvFile" | sed -e "s/.csv//g"`
