@@ -1,0 +1,4 @@
+vitalizer_id,vitalizer_name,delete_flg,create_user,create_datetime,update_user,update_datetime,version
+1,ブラックウォーター,FALSE,test,2020-01-01,test,2020-01-01,1
+2,メネデール,FALSE,test,2020-01-01,test,2020-01-01,1
+3,リキダス,FALSE,test,2020-01-01,test,2020-01-01,1

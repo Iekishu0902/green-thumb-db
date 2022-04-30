@@ -1,0 +1,9 @@
+plant_cotegory_id,plant_cotegory_name,delete_flg,create_user,create_datetime,update_user,update_datetime,version
+1,パキポディウム,FALSE,test,2020-01-01,test,2020-01-01,1
+2,ユーフォルビア,FALSE,test,2020-01-01,test,2020-01-01,1
+3,サボテン,FALSE,test,2020-01-01,test,2020-01-01,1
+4,アロイド,FALSE,test,2020-01-01,test,2020-01-01,1
+5,アガベ,FALSE,test,2020-01-01,test,2020-01-01,1
+6,アロエ,FALSE,test,2020-01-01,test,2020-01-01,1
+7,ケラリア,FALSE,test,2020-01-01,test,2020-01-01,1
+8,オトンナ,FALSE,test,2020-01-01,test,2020-01-01,1

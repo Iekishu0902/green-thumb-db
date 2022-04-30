@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db:
+    build: .
+    container_name: thumb-db
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: thumb
+      POSTGRES_PASSWORD: thumb
+      POSTGRES_DB: thumb
+    volumes:
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      
