@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS m_fertilizer;
-DROP TABLE IF EXISTS m_plant_cotegory;
+DROP TABLE IF EXISTS m_plant_category;
 DROP TABLE IF EXISTS m_season;
 DROP TABLE IF EXISTS m_vitalizer;
 DROP TABLE IF EXISTS t_user;
@@ -21,9 +21,9 @@ CREATE TABLE m_fertilizer (
   , version INT not null 
 );
 
-CREATE TABLE m_plant_cotegory (
-  plant_cotegory_id INT not null 
-  , plant_cotegory_name VARCHAR(40) not null 
+CREATE TABLE m_plant_category (
+  plant_category_id INT not null 
+  , plant_category_name VARCHAR(40) not null 
   , delete_flg BOOLEAN not null 
   , create_user	VARCHAR(50) not null 
   , create_datetime	TIMESTAMP not null 
@@ -70,7 +70,7 @@ CREATE TABLE t_plant (
   plant_id INT not null 
   , plant_name VARCHAR(40) not null 
   , plant_detail VARCHAR(241) not null 
-  , plant_cotegory_id INT not null 
+  , plant_category_id INT not null 
   , season_id INT not null 
   , delete_flg BOOLEAN not null 
   , create_user	VARCHAR(50) not null 
